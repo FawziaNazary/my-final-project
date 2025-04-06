@@ -1,0 +1,63 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Recipe Collection</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header class="header">
+        <nav class="navbar">
+            <div class="container">
+                <h1 class="logo">🍳 RecipeBook</h1>
+                <ul class="nav-links">
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="add-recipe.html">Add Recipe</a></li>
+                    <li><a href="recipe-list.html" class="active">Recipe List</a></li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+
+    <main class="container">
+        <section class="recipe-filter">
+            <h2>Browse Recipes</h2>
+            <div class="filter-options">
+                <select id="categoryFilter">
+                    <option value="all">All Categories</option>
+                    <option value="breakfast">Breakfast</option>
+                    <option value="lunch">Lunch</option>
+                    <option value="dinner">Dinner</option>
+                    <option value="desserts">Desserts</option>
+                </select>
+                <input type="text" placeholder="Search recipes..." id="searchInput">
+            </div>
+
+            <div class="recipe-grid">
+                <article class="recipe-card">
+                    <img src="images/image8.jpg" alt="Recipe Image">
+                    <img src="images/image6.jpg" alt="">
+                    <img src="images/image3.jpg"im alt="">
+                    <img src="images/image10.jpg" alt="">
+                    <div class="recipe-content">
+                        <h3>Various Chocolate Cake</h3>
+                        <p>Layered chocolate with fresh fruets and cheese</p>
+                        <div class="recipe-meta">
+                            <span class="category-tag vegetarian">Desserts</span>
+                            <a href="recipe-details.html" class="btn">View Recipe</a>
+                        </div>
+                    </div>
+                </article>
+
+                <!-- Add more recipe cards here -->
+            </div>
+        </section>
+    </main>
+
+    <footer class="footer">
+        <p>© 2025 Fawzia Nazary RecipeBook. All rights reserved.</p>
+    </footer>
+</body>
+</html>
